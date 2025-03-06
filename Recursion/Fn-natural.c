@@ -12,7 +12,7 @@ return 0;
 
 void codd(int n)
 {
-    if(n>=0)
+    if(n>=1)
 {
     codd(n-1);
 printf(" %d ",n );
